@@ -1,3 +1,22 @@
+/* BOTTONI */
+
+.btn-primary {
+    border-radius: 26px;
+}
+
+
+/* BACKGROUND IMAGE */
+
+.jumbotron,
+.banner {
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+}
+
+
 /* HEADER */
 
 .logo-sony {
@@ -20,10 +39,8 @@ header .col-5 {
 }
 
 header .btn-primary {
-    color: #fff;
     background-color: #363636;
     border-color: #363636;
-    border-radius: 26px;
     font-weight: bold;
 }
 
@@ -39,24 +56,54 @@ header .btn-primary {
 
 .jumbotron {
     background-image: url('../img/jumbo-bg.png');
-    background-size: cover;
-    height: 80vh;
-    background-position: center;
-    color: white;
-    font-weight: bold;
 }
 
 .logo-game img {
-    width: 80%;
+    width: 70%;
 }
 
 .buy-now .btn-primary {
-    color: #fff;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
-    border-radius: 30px;
 }
 
 .jumbotron .col-4 {
     margin-top: 17rem;
+}
+
+
+/* PLAYSTATION 5 SECTION */
+
+.play-station5 .col-2 img {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.slogan-ps5 {
+    margin-top: 6rem;
+}
+
+.play-station5 p {
+    opacity: 0.6;
+    margin-top: 1rem;
+}
+
+.slogan {
+    color: #1f82d3;
+}
+
+.play-station5 img {
+    width: 100%;
+}
+
+
+/* BANNER SECTION */
+
+.banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.banner .col-4 {
+    margin-top: 6rem;
 }
