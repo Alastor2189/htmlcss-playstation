@@ -1,0 +1,35 @@
+/* HEADER */
+
+.logo-sony {
+    background-color: black;
+    height: 46px;
+    display: flex;
+}
+
+.sony {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.nav2 {
+    justify-content: flex-end;
+}
+
+header .col-5 {
+    display: flex;
+}
+
+header .btn-primary {
+    color: #fff;
+    background-color: #363636;
+    border-color: #363636;
+    border-radius: 26px;
+    font-weight: bold;
+}
+
+.fas.fa-search {
+    margin-left: 25px;
+}
+
+
+/* MAIN */
