@@ -33,3 +33,30 @@ header .btn-primary {
 
 
 /* MAIN */
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-game img {
+    width: 80%;
+}
+
+.buy-now .btn-primary {
+    color: #fff;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    border-radius: 30px;
+}
+
+.jumbotron .col-4 {
+    margin-top: 17rem;
+}
