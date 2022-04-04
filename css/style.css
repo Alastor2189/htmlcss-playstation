@@ -148,6 +148,7 @@ header .btn-primary {
 
 .ps-plus {
     background-color: #bebcbb;
+    padding: 3rem 0px;
 }
 
 .logo-plus img {
@@ -178,6 +179,7 @@ header .btn-primary {
 .ps-now {
     background-color: #161c3b;
     color: white;
+    padding: 3rem 0;
 }
 
 .btn-now .btn-primary {
@@ -256,5 +258,18 @@ footer a {
     }
     .menu-burger {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .play-station5 p,
+    .game-april {
+        display: none;
+    }
+    footer ul {
+        margin-bottom: 0;
+    }
+    .sony-int {
+        margin-top: 3rem;
     }
 }
