@@ -56,10 +56,13 @@ header .btn-primary {
 
 .jumbotron {
     background-image: url('../img/jumbo-bg.png');
+    display: flex;
+    align-items: end;
+    padding-bottom: 4rem;
 }
 
 .logo-game img {
-    width: 70%;
+    width: 57%;
 }
 
 .buy-now .btn-primary {
@@ -74,7 +77,7 @@ header .btn-primary {
 
 /* PLAYSTATION 5 SECTION */
 
-.play-station5 .col-2 img {
+.play-station5 img {
     width: 100%;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -102,8 +105,156 @@ header .btn-primary {
 
 .banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    display: flex;
+    align-items: end;
+    padding-bottom: 4rem;
 }
 
-.banner .col-4 {
-    margin-top: 6rem;
+
+/* NEW GAME SECTION */
+
+.new-game {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 2rem 0;
+}
+
+.new-game img {
+    width: 100%;
+}
+
+.new-game h4 {
+    margin: 15px 0;
+}
+
+
+/* PS4-EXPLORE SECTION */
+
+.ps4-explore {
+    padding: 3rem 0;
+}
+
+.product-ps4 img {
+    width: 100%;
+}
+
+.ps4-explore p {
+    opacity: 0.6;
+    margin: 1.5rem 0;
+}
+
+
+/* PS PLUS SECTION */
+
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.logo-plus img {
+    width: 60%;
+}
+
+.game-april img {
+    width: 100%;
+}
+
+.btn-plus .btn-primary {
+    color: #4575e4;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+    font-weight: bold;
+}
+
+
+/* NEW DISCOUNT SECTION */
+
+.new-discount {
+    padding: 3rem 0;
+}
+
+
+/* PLAYSTATION NOW SECTION */
+
+.ps-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.btn-now .btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+
+/* SOCIAL SECTION */
+
+.social {
+    padding: 3rem 0;
+}
+
+.icon-social img {
+    width: 100%;
+}
+
+.title-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.play-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00439c;
+    color: white;
+    padding: 3rem 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+
+.playstation img {
+    height: 80px;
+}
+
+.sony-int img {
+    height: 60px;
+}
+
+.sony-text {
+    margin-top: 10px;
+}
+
+.country {
+    margin-top: 25px;
+}
+
+@media screen and (max-width:991px) {
+    .nav-part {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .nav-part {
+        display: block;
+    }
+    .menu-burger {
+        display: none;
+    }
 }
